@@ -1,7 +1,11 @@
-function App() {
-    return <div>
+import Header from "./Components/Header";
 
-    </div>;
+function App() {
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
 
 export default App;
