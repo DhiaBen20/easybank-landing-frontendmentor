@@ -1,7 +1,42 @@
+import online from "./assets/icon-online.svg";
+import budgeting from "./assets/icon-budgeting.svg";
+import onboarding from "./assets/icon-onboarding.svg";
+import api from "./assets/icon-api.svg";
 import currency from "./assets/image-currency.jpg";
 import restaurant from "./assets/image-restaurant.jpg";
 import plane from "./assets/image-plane.jpg";
 import confetti from "./assets/image-confetti.jpg";
+
+export const features = [
+  {
+    id: 1,
+    title: "Online Banking",
+    description:
+      "Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.",
+    icon: online,
+  },
+  {
+    id: 2,
+    title: "Simple Budgeting",
+    description:
+      "See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits.",
+    icon: budgeting,
+  },
+  {
+    id: 3,
+    title: "Fast Onboarding",
+    description:
+      "We don’t do branches. Open your account in minutes online and start taking control of your finances right away.",
+    icon: onboarding,
+  },
+  {
+    id: 4,
+    title: "Open API",
+    description:
+      "Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.",
+    icon: api,
+  },
+];
 
 export const articles = [
   {
